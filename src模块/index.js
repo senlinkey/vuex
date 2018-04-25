@@ -1,0 +1,12 @@
+import Vue from 'vue';
+import App from './App.vue';
+import router from './router.js';
+import store from './store.js';
+
+
+const vm = new Vue({
+  el: '#app',
+  router: router,
+  store:store,
+  render: h => h(App)
+})
